@@ -23,6 +23,7 @@ const renderPerson = async () => {
 			//affiche le user
 			user.display();
 
+			//appel la fonction click
 			user.click();
 		});
 	} catch (e) {
